@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: cyan;
+  text-decoration: none;
+ 
+}
+
+
+#about{
+    color: white;
+    word-spacing: 5px;
+    font-size: 15px;
+    background-color: cyan;
+    text-align: center;
+}
+
+#about i{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+    
+    
+}
+.projects{
+    color: white;
+    background-color: cyan;
+    text-decoration: none;
+    text-align: center;
+}
+
+    
+
+
+.projects .project-card a{
+    text-decoration: none;
+    color: white;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 2em;
+}
+.project-card {
+  background:  #333;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+
+
+#contact {
+  color: white;
+  background-color: cyan;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+ 
+}
+
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+ 
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#contact button {
+  background-color:  #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #555;
+}
+
+
+footer {
+  
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Desktop view */
+@media (min-width: 768px) {
+  #contact {
+    width: 100%;
+  }
+}
+
+
+
+
+
